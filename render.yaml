@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: springboot-service
-    env: java
-    region: oregon   # or any
-    buildCommand: "./mvnw clean install -DskipTests"
-    startCommand: "java -jar target/*.jar"
-    plan: free
